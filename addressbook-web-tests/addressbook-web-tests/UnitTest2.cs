@@ -25,6 +25,8 @@ namespace SeleniumTests
             //options.UseLegacyImplementation = true;
             //options.BrowserExecutableLocation = @"C:\Program Files\Mozilla FirefoxESR\firefox.exe";
             //driver = new FirefoxDriver();
+            //ChromeOptions options = new ChromeOptions();
+            //options.AddWindowType = IWindo
             driver = new ChromeDriver();
             baseURL = "http://localhost/";
             verificationErrors = new StringBuilder();
